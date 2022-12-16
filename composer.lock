@@ -1,0 +1,61 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "6f5d01a413e6abc1b93e5b32a51e2d66",
+    "packages": [
+        {
+            "name": "forteek/console",
+            "version": "v1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/forteek/console.git",
+                "reference": "21bdb5eb8e9b2bf4d18a16298287ad224a1d6779"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/forteek/console/zipball/21bdb5eb8e9b2bf4d18a16298287ad224a1d6779",
+                "reference": "21bdb5eb8e9b2bf4d18a16298287ad224a1d6779",
+                "shasum": ""
+            },
+            "require": {
+                "ext-ctype": "*",
+                "ext-readline": "*",
+                "php": ">=8.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Fortek\\Console\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marcin Fortuniak",
+                    "email": "fortgeek@gmail.com"
+                }
+            ],
+            "description": "A PHP library addressing all your CLI needs.",
+            "support": {
+                "issues": "https://github.com/forteek/console/issues",
+                "source": "https://github.com/forteek/console/tree/v1.0.3"
+            },
+            "time": "2022-11-23T14:58:39+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.2.0"
+}
